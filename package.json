@@ -35,10 +35,13 @@
   },
   "keywords": [],
   "dependencies": {
+    "good": "^6.1.2",
+    "good-winston": "^1.0.0",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-nodeunit": "^0.4.1",
     "grunt-contrib-watch": "^0.6.1",
-    "hapi": "^8.4.0"
+    "hapi": "^8.4.0",
+    "winston": "^1.0.0"
   }
 }
