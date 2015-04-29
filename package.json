@@ -1,0 +1,37 @@
+{
+  "name": "NymbleTime",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/EvaFi/NymbleTime",
+  "author": {
+    "name": "Fischer, Eva",
+    "email": "eva.fischer@elekta.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvaFi/NymbleTime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvaFi/NymbleTime/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/EvaFi/NymbleTime/blob/master/LICENSE-GPL"
+    }
+  ],
+  "main": "server.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+}
