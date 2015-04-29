@@ -20,6 +20,9 @@ module.exports = function(grunt) {
       test: {
         src: ['test/**/*.js']
       },
+	  root: {
+        src: ['*.js']
+	  },
     },
     watch: {
       gruntfile: {
@@ -33,6 +36,10 @@ module.exports = function(grunt) {
       test: {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'nodeunit']
+      },
+	  root: {
+		files: '<%= jshinst.gruntfile.src %>',
+        tasks: ['jshint:root', 'nodeunit']
       },
     },
   });
