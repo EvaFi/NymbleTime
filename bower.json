@@ -1,0 +1,21 @@
+{
+  "name": "NymbleTime",
+  "version": "0.0.0",
+  "homepage": "https://github.com/EvaFi/NymbleTime",
+  "authors": [
+    "Fischer",
+    "Eva <eva.fischer@elekta.com>"
+  ],
+  "description": "Underhållstjos för Nymble",
+  "keywords": [
+    "Nymble"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
